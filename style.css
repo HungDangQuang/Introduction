@@ -94,3 +94,68 @@ h2{
     text-decoration: none;
     font-size: 60px;
 }
+
+
+
+.btnmore {
+    margin-top: 5px;
+    background-color: wheat;
+    color: purple;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    outline: none;
+    box-shadow: 1px 2px black;
+}
+
+.btnmore:hover {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.moreinfo-right {
+    transform: translateX(100%);
+    position: fixed;
+    top: 60px;
+    right: 0;
+    background-color: wheat;
+    color: black;
+    font-size: medium;
+    padding: 25px 10px;
+    transition: all 1s ease;
+}
+.moreinfo-left {
+    transform: translateX(-100%);
+    position: fixed;
+    top: 60px;
+    left: 0;
+    background-color: wheat;
+    color: black;
+    font-size: large;
+    padding: 25px 10px;
+    transition: all 1s ease;
+}
+.enable {
+    transform: translateX(0);
+}
+
+.top-2 {
+    top: 160px;
+}
+
+.top-3 {
+    top: 260px;
+}
+
+.top-4 {
+    top: 360px;
+}
+
+.top-5 {
+    top: 460px;
+}
+
+.left {
+    left: 0;
+}
